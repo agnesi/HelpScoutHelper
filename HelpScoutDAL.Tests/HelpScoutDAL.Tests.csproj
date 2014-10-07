@@ -50,14 +50,21 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="HelpScoutApiTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HelpScoutContracts\HelpScoutContracts.csproj">
+      <Project>{14e6b7a0-acd3-41f5-8c3a-1cac173569fc}</Project>
+      <Name>HelpScoutContracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HelpScoutDAL\HelpScoutDAL.csproj">
       <Project>{9a13f144-2c4f-4bd0-9227-a444358a9ab1}</Project>
       <Name>HelpScoutDAL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

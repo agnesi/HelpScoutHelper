@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpScoutDAL", "HelpScoutDA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpScoutDAL.Tests", "HelpScoutDAL.Tests\HelpScoutDAL.Tests.csproj", "{C96D43FF-8854-4AD1-9A0D-FBC30069E19D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpScoutContracts", "HelpScoutContracts\HelpScoutContracts.csproj", "{14E6B7A0-ACD3-41F5-8C3A-1CAC173569FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C96D43FF-8854-4AD1-9A0D-FBC30069E19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C96D43FF-8854-4AD1-9A0D-FBC30069E19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C96D43FF-8854-4AD1-9A0D-FBC30069E19D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E6B7A0-ACD3-41F5-8C3A-1CAC173569FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E6B7A0-ACD3-41F5-8C3A-1CAC173569FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E6B7A0-ACD3-41F5-8C3A-1CAC173569FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E6B7A0-ACD3-41F5-8C3A-1CAC173569FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
